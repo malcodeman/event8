@@ -1,0 +1,39 @@
+.input-wrapper {
+    height: 64px;
+    padding: 0 1rem;
+    width: 512px;
+}
+
+.input {
+    border: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #fff;  
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.button {   
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;    
+    justify-content: center;
+    align-items: center;
+    color: #027791;
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.transparent-border-bottom {
+    height: 24px;
+    background-color: rgba(0, 0, 0, .1);
+}

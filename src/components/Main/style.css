@@ -1,0 +1,37 @@
+p,h1 {
+    margin: 0;
+}
+
+.main {
+   background-color: #FFE9D1;
+   padding: 8rem 0;
+   grid-area: m;
+}
+
+.text-section {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 6rem;
+}
+
+.text-section .paragraph-text {
+    font-size: 1.4rem;
+    color: #027791;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-section .hero-text {
+    color: #fff;
+    font-size: 8rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 12px 0 #FFDAB0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.input-section {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}

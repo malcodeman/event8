@@ -1,0 +1,6 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template: 64px auto 64px / repeat(12, 1fr);
+    grid-template-areas: "h h h h h h h h h h h h" "m m m m m m m m m m m m" "f f f f f f f f f f f f";
+}
