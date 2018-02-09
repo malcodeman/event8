@@ -3,15 +3,17 @@ p,h1 {
 }
 
 .main {
-   background-color: #FFE9D1;
+   background-color: #FFFCE1;
+   background-image: url(../../assets/bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
    padding: 8rem 0;
    grid-area: m;
 }
 
 .text-section {
-    margin: 0 auto;
-    max-width: 1200px;
     margin-bottom: 6rem;
+    text-align: center;
 }
 
 .text-section .paragraph-text {
@@ -30,8 +32,6 @@ p,h1 {
 }
 
 .input-section {
-    margin: 0 auto;
-    max-width: 1200px;
     display: flex;
     justify-content: center;
 }

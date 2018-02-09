@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     height: 100vh;
-    grid-template: 64px auto 128px / repeat(12, 1fr);
+    grid-template: minmax(auto, 86px) auto 128px / repeat(12, 1fr);
     grid-template-areas: "h h h h h h h h h h h h" "m m m m m m m m m m m m" "f f f f f f f f f f f f";
 }
 
@@ -15,4 +15,9 @@
 
 .instagram-icon {
     background-image: url('../assets/icons/instagram.svg');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }

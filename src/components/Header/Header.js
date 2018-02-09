@@ -4,7 +4,7 @@ import './style.css';
 const Header = () => {
     return(
         <header className="header">
-            <nav className="nav">
+            <nav className="nav container">
                 <div>
                     <a className="link" href="#">event8.io</a>
                 </div>

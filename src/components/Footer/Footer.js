@@ -5,7 +5,7 @@ import './style.css';
 const Footer = () => {
     return(
         <footer className="footer">
-            <section className="footer-section">
+            <section className="footer-section container">
                 <Icon icon="facebook-icon"/>
                 <Icon icon="instagram-icon"/>
                 <Icon icon="twitter-icon"/>                

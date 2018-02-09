@@ -1,12 +1,9 @@
 .footer {
     grid-area: f;
-    background-color: #FFE9D1;
-
+    background-color: #FFFCE1;
 }
 
 .footer-section {
     display: flex;
     justify-content: flex-end;
-    max-width: 1200px;
-    margin: 0 auto;
 }
