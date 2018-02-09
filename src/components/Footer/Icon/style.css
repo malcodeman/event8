@@ -1,0 +1,14 @@
+.icon {
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 0 .4rem;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: #fff;
+    box-shadow: 0 12px 0 rgba(0, 0, 0, .4);
+}
