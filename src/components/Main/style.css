@@ -7,7 +7,7 @@ p,h1 {
    background-image: url(../../assets/bg.jpg);
    background-repeat: no-repeat;
    background-position: center;
-   padding: 8rem 0;
+   padding: 4rem 0;
    grid-area: m;
 }
 
@@ -23,12 +23,26 @@ p,h1 {
 }
 
 .text-section .hero-text {
-    color: #fff;
-    font-size: 8rem;
+    color: rgba(255, 255, 255, .8);
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 0 12px 0 #FFDAB0;
+    text-shadow: 0 2px 0 #FFDAB0;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+@media (min-width: 576px) { 
+    .text-section .hero-text {
+        font-size: 4rem;
+        text-shadow: 0 6px 0 #FFDAB0;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .text-section .hero-text {
+        font-size: 8rem;
+        text-shadow: 0 12px 0 #FFDAB0;
+    }
 }
 
 .input-section {

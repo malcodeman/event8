@@ -1,8 +1,14 @@
 .input-wrapper {
     height: 64px;
     padding: 0 1rem;
-    width: 512px;
+    width: auto;
 }
+
+@media (min-width: 576px) { 
+    .input-wrapper {
+        width: 512px;
+    }
+ }
 
 .input {
     border: 0;
@@ -34,6 +40,11 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     vertical-align:middle;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #027791;
 }
 
 .transparent-border-bottom {
