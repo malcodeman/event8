@@ -5,14 +5,16 @@ input,
 p {
   margin: 0;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
 a {
   text-decoration: none;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  padding: 0 48px;
 }
 
 .icon {
@@ -36,10 +38,116 @@ a {
   background-image: url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.navigation {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: #fff;
+  padding: 4px 8px;
+  border: 1px solid #fff;
+  margin: 0 6px;
 }
 
 .hero-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+
+.hero-wrapper .heading {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.hero-wrapper .subheading {
+  font-size: 1rem;
+}
+
+/* Description */
+
+.description-section {
+  text-align: center;
+  padding: 48px 0;
+}
+
+.description-section .text-wrapper {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.description-section .p-primary {
+  margin-bottom: 24px;
+  color: #ff6f48;
+  font-size: 1.4rem;
+}
+
+.description-section .p-secondary {
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+}
+
+.description-section .btn {
+  border: 1px solid #ff6f48;
+  color: #ff6f48;
+  padding: 8px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Highlights */
+
+.highlights-section {
+  padding: 48px 0;
+}
+
+.highlights-section .grid-left {
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+.highlights-section .grid-left .description {
+  background-color: #f4f4f4;
+}
+
+.highlights-section .grid-right {
+  display: grid;
+  grid-template-columns: 1fr 55%;
+}
+
+.highlights-section .image {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+.highlights-section .description {
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlights-section .heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 24px;
+}
+
+.highlights-section .p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
 }
