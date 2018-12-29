@@ -27,22 +27,31 @@ a {
   padding: 0 48px;
 }
 
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.color-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 94, 58, 0.4),
+    rgba(255, 11, 72, 0.4)
+  );
 }
 
 .main-content {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr;
-  max-width: 1200px;
-  width: 100%;
-  background-image: url(../images/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .navigation {
